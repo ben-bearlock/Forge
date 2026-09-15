@@ -1,0 +1,6 @@
+/* Hide leftover Astra marketplace chrome. Keep Quick Settings and modules visible. */
+#astra-dashboard-app a[href*="facebook.com/groups/wpastra"],
+#astra-dashboard-app a[href*="wordpress.org/support/theme/astra"],
+#astra-dashboard-app a[href*="wpastra.com/docs"] {
+	display: none !important;
+}
